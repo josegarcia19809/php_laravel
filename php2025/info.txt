@@ -1,0 +1,10 @@
+Del curso: Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL
+Juan Pablo De la torre Valdez
+
+Inicio: Miércoles 12 de marzo 2025
+
+PHP - Sintaxis y Funciones: json_encode y json_decode
+
+
+
+
