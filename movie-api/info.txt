@@ -1,1 +1,1 @@
-Movie API. Laravel: iniciando proyecto
+Movie API. Laravel: Creación de Controller y trait
