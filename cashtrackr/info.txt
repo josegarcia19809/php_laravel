@@ -1,1 +1,1 @@
-Cashtrackr Laravel: inicio de proyecto
+Cashtrackr Laravel: Primeros pasos con la Autenticación y Registro de Usuarios

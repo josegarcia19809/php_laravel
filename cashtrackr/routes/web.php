@@ -7,6 +7,10 @@ Route::get('/', function () {
 });
 
 
-Route::get('/nosotros', function () {
-    return "Sobre nosotros";
-});
+Route::get('/auth/register', function () {
+    return view('auth.register');
+})->name('register');
+
+Route::get('/auth/login', function () {
+    return view('auth.login');
+})->name('login');
