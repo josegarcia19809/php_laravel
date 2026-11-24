@@ -1,1 +1,1 @@
-Cashtrackr Laravel: Primeros pasos con la Autenticación y Registro de Usuarios
+Cashtrackr Laravel: Moviendo las rutas de Closure a Controller
