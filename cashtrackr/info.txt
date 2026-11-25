@@ -1,1 +1,1 @@
-Cashtrackr Laravel: Moviendo las rutas de Closure a Controller
+Cashtrackr Laravel: realizando validaciones
