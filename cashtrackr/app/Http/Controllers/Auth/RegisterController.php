@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\SignupRequest;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class RegisterController extends Controller
@@ -17,8 +18,6 @@ class RegisterController extends Controller
     {
         $data =
             $request->validated();
-
-
-        dd($data);
+        User::create($data); // Artis4n$
     }
 }

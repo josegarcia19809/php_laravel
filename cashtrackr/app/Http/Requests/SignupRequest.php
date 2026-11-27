@@ -22,6 +22,7 @@ class SignupRequest extends FormRequest
             'name.required' => 'El nombre es requerido',
             'email.required' => 'El email es requerido',
             'email.email' => 'Este email no es válido',
+            'email.unique' => 'Este email ya está registrado',
             'password.required' => 'La contraseña es requerida',
             'password.confirmed' => 'Las contraseñas no coinciden',
             'password.min' => 'La contraseña debe tener al menos :min caracteres',
@@ -42,7 +43,7 @@ class SignupRequest extends FormRequest
     {
         return [
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'email'],
+            'email' => ['required', 'email', 'unique:users,email'],
             'password' => ['required', 'confirmed',
                 Password::min(4)
                     ->letters()

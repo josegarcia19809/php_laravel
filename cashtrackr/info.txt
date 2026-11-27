@@ -1,1 +1,1 @@
-Cashtrackr Laravel: realizando validaciones
+Cashtrackr Laravel: insertar usuarios a la base de datos y evitar duplicados
